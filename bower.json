@@ -1,6 +1,6 @@
 {
-  "name": "flatstrap",
-  "description": "flat Bootstrap",
+  "name": "flatstrap-css-only",
+  "description": "Flat version of Bootstrap, CSS & fonts only (no JS)",
   "version": "3.3.1",
   "keywords": [
     "css",
@@ -16,9 +16,7 @@
   ],
   "homepage": "http://zerox.me/projects/flatstrap",
   "main": [
-    "less/flatstrap.less",
     "dist/css/flatstrap.css",
-    "dist/js/flatstrap.js",
     "dist/fonts/glyphicons-halflings-regular.eot",
     "dist/fonts/glyphicons-halflings-regular.svg",
     "dist/fonts/glyphicons-halflings-regular.ttf",
@@ -33,8 +31,5 @@
     "docs",
     "js/tests",
     "test-infra"
-  ],
-  "dependencies": {
-    "jquery": ">= 1.9.1"
-  }
+  ]
 }
